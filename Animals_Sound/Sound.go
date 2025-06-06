@@ -1,17 +1,13 @@
 package AnimalsSound
 
-import "fmt"
-
-
-func DogBark (){
-	fmt.Println("Woh! Woh!")
+func DogBark() string {
+	return "Wohh! Wohh!"
 }
 
-
-func Cat(){
-	fmt.Println("Meow! Meow!")
+func Cat() string {
+	return "Meow! Meow!"
 }
 
-func lion(){
-	fmt.Println("Roar!!")
+func Lion() string {
+	return "Roar!!"
 }
